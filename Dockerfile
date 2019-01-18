@@ -6,4 +6,4 @@ RUN pip install nextcloud_news_updater --install-option="--install-scripts=/usr/
 
 COPY docker_entrypoint.sh /
 
-ENTRYPOINT /docker_entrypoint.sh
+ENTRYPOINT ["/docker_entrypoint.sh"]
